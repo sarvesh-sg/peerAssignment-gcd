@@ -5,15 +5,16 @@ Assignment for "getting and cleaning data course"
 
 Scripts/Files
 ----------
-run_analysis.R --> Main script to create tidy data from the "Dataset"
-CodeBook.md -> a code book that describes 
+	*run_analysis.R --> Main script to create tidy data from the "Dataset"
+	*CodeBook.md --> a code book that describes 
 		the variables, 
 		the data, and 
 		any transformations performed to clean up the data
-tidyData_org.txt --> golden output file after running the run_analysis script. added here for comparison
+	*tidyData_org.txt --> golden output file after running the run_analysis script. added here for comparison
 
 Data
 ----------
+<pre>
 Data is organised as shown below
 	Dataset/
 	|-- activity_labels.txt
@@ -28,13 +29,16 @@ Data is organised as shown below
 	    |-- subject_train.txt
 	    |-- X_train.txt
 	    `-- y_train.txt
-
+</pre>
 Assumptions/Interpretations
 ---------------
+<pre>
 For the purpose of this assignment, following assumptions/Interpretation have been made
-1. Interial Signals from the main data source have been ignored
-2. mean extraction is done on columns containing "mean" in text as described in "features.txt"
-3. tidy data is assumed to be arranged by activity and subject row wise, in no particular order
+	1.Interial Signals from the main data source have been ignored
+	2.mean extraction is done on columns containing "mean" in text as described in "features.txt"
+	3.tidy data is assumed to be arranged by activity and subject row wise, in no particular order
+
+</pre>
 
 Output
 ----------
